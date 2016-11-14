@@ -1,0 +1,460 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f8f8f8;
+	overflow-x: hidden;
+}
+
+
+nav {
+	padding: 30px 70px;
+	background-color: #fff;
+	box-shadow: 1px 0.77px 9px #ccc;
+}
+
+section {
+	margin: 30px;
+	padding: 0px;
+}
+
+.top-nav ul{
+	margin: 0px;
+	margin-top: 20px;
+}
+
+.top-nav ul li{
+	list-style: none;
+	background-color: #fff;
+	overflow: hidden;
+	padding: 2px;
+	margin-top: 10px;
+}
+
+.top-nav ul li p{
+	margin-top: 10px;
+	text-transform: uppercase;
+	font-size: 16px;
+
+}
+
+.top-nav ul li p:nth-child(1) {
+	color: #881919;
+	display: inline-block;
+	margin: 0px;
+	margin-left: 20px;
+	margin-top: 11px;
+}
+
+.top-nav ul li p:nth-child(2) {
+	color: #881919;
+	margin: 0px;
+	float: right;
+	padding: 10px;
+	width: 15%;
+	text-align: center;
+	background-color: #881919;
+}
+
+.orbit{
+	
+}
+
+.orbit .orbit-container{
+	
+}
+
+.orbit .orbit-container .orbit-slide{
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+
+.orbit .orbit-container .orbit-slide .text-con{
+	padding: 50px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.orbit .orbit-container .orbit-slide .text-con h3{
+	font-size: 20px;
+	color: #fff;	
+	margin-top: 80px;
+}
+
+.orbit .orbit-container .orbit-slide .text-con h2{
+	font-size: 4em;
+	font-weight: bold;
+	color: #fff;	
+	margin-top: 10px;
+}
+
+.orbit .orbit-container .orbit-slide .text-con h4{
+	font-size: 10px;
+	color: #fff;	
+	font-weight: bold;
+}
+
+.orbit .orbit-container .orbit-slide .text-con 	{
+	color: #fff;
+	padding: 15px 30px;
+	color: #2a263f;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.orbit .orbit-container .orbit-slide .text-con button{
+	text-transform: uppercase;
+	padding: 10px;
+	background-color: #fff;
+	width: 30%;
+	margin-top: 20px;
+
+}
+
+.orbit .orbit-container .orbit-slide .text-con a{
+	color: #fff;
+	margin-top: 20px;
+	display: block;
+}
+
+.row{
+	.background-color: red;
+	.width: 100%;
+	margin: 0px;
+}
+
+.login-con {
+	background-color: #2a263f;
+	color: #fff;
+	text-transform:uppercase;
+	font-weight: bold;
+	padding: 20px;
+}
+
+
+.login-con ul{
+	margin: 0px;
+}
+
+.login-con ul li{
+	list-style: none;
+	display: inline;
+}
+
+.login-con ul li img{
+	width: 50px;
+	margin-right: 20px;
+}
+
+.up-comming-con {
+	text-align: center;
+	box-shadow: 0px 2px 1px #ccc;
+	background-color: #fff;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.up-comming-con h3{
+	text-transform: uppercase;
+	color: #2a263f;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.date {
+	padding-top: 20px;
+	background-color: #fff;
+	height: 280px;
+	margin-top: 2px;
+}
+
+.date > div {
+	margin-top: 30px;
+}
+
+.date .one{
+	background-color: #2a263f;
+	text-align: center;
+}
+
+.date .two{
+	font-size: 10px;
+	margin-top: 20px;
+}
+
+.date .one h5{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.date .one p{
+	font-size: 20px;
+	color: #fff;
+	margin-top: -10px;
+	margin: 0px;
+}
+
+.all_event {
+	background-color: #2a263f;
+	text-align: center;
+	padding: 20px;
+
+}
+
+.all_event p{
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin: 0px;
+}
+
+.page-nav-con {
+	/* background: gray; */
+	padding: 0px;
+	margin: 0px;
+}
+
+.page-nav{
+	height: 250px;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* margin: 3px; */
+	margin-bottom: 20px;
+	width: 48.60%;
+}
+
+.donation{
+	background-image: url('../image/hall.jpg');
+}
+
+.donation h3{
+	color: #fff;
+	text-transform:uppercase;
+	font-weight: bold;
+	margin-top: 80px;
+}
+
+.donation .button{
+	color: #fff;
+	background: transparent;
+	text-transform:uppercase;
+	font-weight: bold;
+	border: 2px solid #fff;
+	width: 34%;
+	margin-top: 40px;
+}
+
+.alumni{
+	background-image: url('../image/alumni of the month.jpg');
+	color: #fff;
+}
+
+.alumni p {
+	color: #fff;
+	margin-top: 30px;
+}
+
+.alumni .button{
+	color: #fff;
+	background: transparent;
+	font-weight: bold;
+	border: 2px solid #fff;
+	text-transform:uppercase;
+	width: 34%;
+	margin-top: 20px;
+}
+
+.alumni p {
+	text-transform:uppercase;
+}
+
+.alumni h3{
+	color: #fff;
+	text-transform:uppercase;
+	font-weight: bold;
+	margin-top: 50px;
+}
+
+.social {
+	background-color: #fff;
+}
+
+.social h3{
+	background-color: #fff;
+	color: #2a263f;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+
+.social ul li {
+	list-style: none;
+	display: inline;
+	padding: 20px;
+}
+
+.social ul li img {
+	width: 30px;
+}
+
+.rising {
+	background-image: url('../image/stallions.jpg');
+}
+
+.rising h3{
+	color: #fff;
+	text-transform:uppercase;
+	font-weight: bold;
+	margin-top: 50px;
+}
+
+.rising .button{
+	color: #fff;
+	background: transparent;
+	text-transform:uppercase;
+	font-weight: bold;
+	border: 2px solid #fff;
+	width: 39%;
+	margin-top: 20px;
+}
+
+.rising p{
+	color: #fff;
+	text-transform:uppercase;
+	margin-top: 10px;
+}
+
+.note {
+	color: #fff;
+	height: 700px;
+	padding: 100px;
+	text-transform: uppercase;
+	background-repeat: no-repeat;
+	background-image: url('../image/panel_image.jpg');
+	background-size: cover;
+}
+
+.note blockquote{
+	font-size: 15px;
+}
+
+.note h4:nth-child(1){
+	font-size: 40px;
+}
+
+.note h4:nth-child(2){
+	font-size: 70px;
+	font-weight: bold;
+}
+
+.note h4:nth-child(3){
+	font-size: 40px;	
+}
+
+.note h4:nth-child(4){
+	font-size: 50px;
+	font-weight: bold;
+	margin: 0px;
+	text-transform: uppercase;
+}
+
+.note h4:nth-child(5){
+	font-size: 10px;
+	margin: 0px;
+	text-transform: uppercase;
+}
+
+
+.register-con {
+	text-transform: uppercase;
+	color: #2a263f;
+	padding: 10px;
+	width: 600px;
+}
+
+.register-con lable {
+	font-size: 20px;
+}
+
+.register-con input {
+	margin-top: 10px;
+	border-style: none;	
+	border-bottom: solid 2px #2a263f;
+}
+
+.register-con textarea {
+	margin-top: 10px;
+	border-style: none;
+	height: 100px;
+	border-bottom: solid 2px #2a263f;
+}
+
+.register-con select {
+	border: solid 2px #2a263f;
+	margin-top: 10px;
+}
+
+.register-con button {
+	background-color: #2a263f;
+	width: 70%;
+	margin-top: 30px;
+	text-transform: uppercase;
+}
+
+.register-con button:hover {
+	background-color: #2a263f;
+	padding: 15px 40px;
+	width: 50%;
+	margin-top: 30px;
+	text-transform: uppercase;
+}
+
+footer {
+	padding: 60px;
+	background-color: #2a263f;
+}
+
+footer ul {
+	margin: 0px;
+	text-align: center;
+}
+
+footer ul li {
+	list-style: none;
+	display: inline;
+	width: 100%;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+footer ul li a{
+	color: #fff;
+	font-weight: bold;
+}
+
+footer ul li a:hover{
+	color: #fff;
+}
+
+footer .logo{
+	margin: 0;
+	padding: 20px;
+	margin-top: 60px;
+
+}
+
+footer .logo li{
+	display: inline;
+	list-style: none;
+}
+
+footer .logo li img{
+	width: 100px;
+	margin-bottom: 20px;
+}
