@@ -378,6 +378,37 @@ section {
 	width: 600px;
 }
 
+.login-tap{
+	margin: 20px;
+	border-style: none;
+	background-color: transparent;
+	width: 555px;
+	text-transform: uppercase;
+	color: #2a263f;
+	border-bottom: solid 2px #cdcdcd;
+}
+
+.login-tap a{
+	text-transform: uppercase;
+	color: #2a263f;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.login-tap a:hover{
+	background-color: transparent;
+}
+
+.login-tap .is-active{
+	border-bottom: solid 2px #2a263f;
+	background-color: transparent;
+}
+
+.login-tap .is-active a{
+	border-bottom: solid 2px #2a263f;
+	background-color: transparent;
+}
+
 .register-con lable {
 	font-size: 20px;
 }

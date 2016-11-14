@@ -42,82 +42,110 @@
 			</div>
 
 			<div class="medium-5 small-12 columns">
-				<div class="register-con">
+
+				<ul class="tabs login-tap" data-tabs id="example-tabs">
+					<li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Register</a></li>
+					<li class="tabs-title"><a href="#panel2">login</a></li>
+				</ul>
+
+				<div data-tabs-content="example-tabs">
 					
-					<div class="medium-6 columns">
-						<input type="text" name="" placeholder="First Name">
+					<div class="register-con tabs-panel is-active" id="panel1">
+
+						<div class="medium-6 columns">
+							<input type="text" name="" placeholder="First Name">
+						</div>
+
+						<div class="medium-6 columns">
+							<input type="text" name="" placeholder="Lastname">
+						</div>
+
+						
+						<div class="medium-6 columns">
+							<label>Select Major</label>
+							<select>
+								<option>Computer Science</option>
+							</select>
+						</div>
+
+						<div class="medium-6 columns">
+							<label>Year of graduation</label>
+							<select>
+								<option>100</option>
+							</select>
+						</div>
+						
+						
+						<div class="medium-12 columns">
+							<label>Select Profile Photo</label>
+							<br>
+							<input type="file" name="">
+						</div>
+
+						<div class="medium-6 columns">
+							<input type="email" name="" placeholder="Enter Email">
+						</div>
+
+						<div class="medium-6 columns">
+							<input type="email" name="" placeholder="Enter Alternate Email">
+						</div>
+
+						<div class="medium-6 columns">
+							<input type="password" name="" placeholder="Enter Password">
+						</div>
+
+						<div class="medium-6 columns">
+							<input type="password" name="" placeholder="Confirm Password">
+						</div>
+
+						<div class="medium-12 columns">
+							<label>Enter Residential Address</label>
+							<textarea></textarea>
+						</div>
+
+						<div class="medium-6 columns">
+							<input type="text" name="" placeholder="Industry">
+						</div>
+
+						<div class="medium-6 columns">
+							<input type="text" name="" placeholder="Current Position">
+						</div>
+
+
+						<div class="medium-6 columns">
+							<label>Eduction Qualification</label>
+							<select>
+								<option>B.SC.</option>
+							</select>
+						</div>
+
+						<div class="medium-12 columns" style="">
+							<center>
+								<button class="button">Register</button>
+							</center>
+						</div>
 					</div>
 
-					<div class="medium-6 columns">
-						<input type="text" name="" placeholder="Lastname">
-					</div>
+					<div class="register-con tabs-panel" id="panel2">
 
-					
-					<div class="medium-6 columns">
-						<label>Select Major</label>
-						<select>
-							<option>Computer Science</option>
-						</select>
-					</div>
+						<div class="medium-6 columns">
+							<input type="text" name="" placeholder="Email">
+						</div>
 
-					<div class="medium-6 columns">
-						<label>Year of graduation</label>
-						<select>
-							<option>100</option>
-						</select>
-					</div>
-					
-					<!-- 
-					<div class="medium-12 columns">
-						<label>Select Profile Photo</label>
-						<input type="file" name="">
-					</div> -->
+						<div class="medium-6 columns">
+							<input type="password" name="" placeholder="Password">
+						</div>
 
-					<div class="medium-6 columns">
-						<input type="email" name="" placeholder="Enter Email">
+						<div class="medium-12 columns" style="">
+							<center>
+								<button class="button">Register</button>
+							</center>
+						</div>
 					</div>
-
-					<div class="medium-6 columns">
-						<input type="email" name="" placeholder="Enter Alternate Email">
-					</div>
-
-					<div class="medium-6 columns">
-						<input type="password" name="" placeholder="Enter Password">
-					</div>
-
-					<div class="medium-6 columns">
-						<input type="password" name="" placeholder="Confirm Password">
-					</div>
-
-					<div class="medium-12 columns">
-						<label>Enter Residential Address</label>
-						<textarea></textarea>
-					</div>
-
-					<div class="medium-6 columns">
-						<input type="text" name="" placeholder="Industry">
-					</div>
-
-					<div class="medium-6 columns">
-						<input type="text" name="" placeholder="Current Position">
-					</div>
-
-
-					<div class="medium-6 columns">
-						<label>Eduction Qualification</label>
-						<select>
-							<option>B.SC.</option>
-						</select>
-					</div>
-
-					<div class="medium-12 columns" style="">
-						<center>
-							<button class="button">Register</button>
-						</center>
-					</div>
-					
 
 				</div>
+
+
 			</div>
 
 		</div>
@@ -168,6 +196,13 @@
 			$(document).foundation();
 		</script>
 
+
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+		<script>
+			$(document).foundation();
+		</script>
+		<script type="text/javascript" src="https://intercom.zurb.com/scripts/zcom.js"></script>
 
 </body>
 </html>
